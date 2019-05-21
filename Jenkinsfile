@@ -8,7 +8,7 @@ pipeline {
         IMAGE_REPO = "registry.cn-hangzhou.aliyuncs.com/haoshuwei/${gitlabTargetRepoName}"  // change it to be your docker registry
         IMAGE_TAG = 'UNKNOWN'
         KUBE_NAMESPACE = "staging"
-        dingTalkToken = <your dingTalk token>  // change it to be your dingTalk token
+        dingTalkToken = '<your dingTalk token>'  // change it to be your dingTalk token
     }
     
     options {
